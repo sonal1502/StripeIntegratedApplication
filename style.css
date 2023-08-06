@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: #0e3f67;
+    background-position: fill ;
+    background-size:cover ;
+    position: relative;
+}
+
+.form-box{
+    width: 26%;
+    max-width:55%;
+    height: 69%;
+    max-height: 90%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align:center;
+    border-radius:10px ;
+}
+h1{
+    font-size: 20px;
+    padding-bottom: 15%;
+    position: relative;
+    
+
+}
+
+
+.input-field{
+    background: #f3eeee;
+    margin: 20px 0;
+    border-radius:  3px;
+    display: flex;
+    align-items: center;
+    outline: 20px;
+
+}
+input{
+    width: 100%;
+    background: transparent;
+    
+    font-size: 14px;
+    border: 0;
+    outline-width: 10px;
+    padding-bottom: 10px;
+    
+}
+
+h2{
+    font-size: 14px ;
+    margin-bottom:-7%;
+    padding-right: 84%;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btnLogin-popup{
+    width: 130px;
+    height:50px;
+    background: transparent;
+    border:2px rgb(9, 9, 118);
+    border-radius: 6px;
+    cursor:pointer;
+    color:black;
+    outline:black;
+    display: flex;
+    text-align: center;
+    width: 100%;
+  
+}
+
+button.btnLogin-popup {
+    border: 1.5px solid;
+    BACKGROUND-COLOR: #255781;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+
+/*.checkbox
+{
+    font-size: 10px;
+
+}
+
+
+.rememberMe{
+    font-size: 10px;
+    text-align: left;
+    padding-right: -50%;
+}
+
+
+label{
+    float: left;
+    padding-bottom: -90px;
+}
+
+.check{
+    float: right;
+}
+*/
+
+h3{
+    padding-top: 30px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-box2{
+    width: 26%;
+    max-width:55%;
+    height: 55%;
+   
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align:center;
+    border-radius:10px ;
+}
+
+
+label{
+    float: left;
+ 
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h4{
+    text-decoration: none;
+    color: white;
+}
